@@ -540,27 +540,21 @@ header .header__right div {
     transition: .4s
 }
 
-.calculator__calc--radio label[for=type-1] {
+.calculator__calc--radio label[for=bm-1],
+.calculator__calc--radio label[for=bm-2],
+.calculator__calc--radio label[for=bm-3],
+.calculator__calc--radio label[for=cm-1],
+.calculator__calc--radio label[for=cm-2],
+.calculator__calc--radio label[for=cm-3] {
     position: relative
 }
 
-.calculator__calc--radio label[for=type-1] .question:hover~.question-info {
-    display: block
-}
-
-.calculator__calc--radio label[for=type-2] {
-    position: relative
-}
-
-.calculator__calc--radio label[for=type-2] .question:hover~.question-info {
-    display: block
-}
-
-.calculator__calc--radio label[for=type-3] {
-    position: relative
-}
-
-.calculator__calc--radio label[for=type-3] .question:hover~.question-info {
+.calculator__calc--radio label[for=bm-1] .question:hover~.question-info,
+.calculator__calc--radio label[for=bm-2] .question:hover~.question-info,
+.calculator__calc--radio label[for=bm-3] .question:hover~.question-info,
+.calculator__calc--radio label[for=cm-1] .question:hover~.question-info,
+.calculator__calc--radio label[for=cm-2] .question:hover~.question-info,
+.calculator__calc--radio label[for=cm-3] .question:hover~.question-info {
     display: block
 }
 
